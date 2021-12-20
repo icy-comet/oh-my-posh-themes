@@ -24,7 +24,9 @@
           "foreground": "#ffffff",
           "background": "#DA627D",
           "properties": {
-            "style": "letter"
+            "style": "agnoster_short",
+            "folder_icon": "\ufb44",
+            "max_depth": 2
           }
         },
         {
@@ -32,7 +34,7 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#FCA17D",
+          "background": "#f09a78",
           "properties": {
             "fetch_stash_count": true,
             "fetch_upstream_icon": true,
@@ -76,5 +78,8 @@
         }
       ]
     }
-  ]
+  ],
+  "transient_prompt": {
+    "template": "\uf17a > "
+  }
 }
